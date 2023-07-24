@@ -9,6 +9,10 @@ public class Server {
                     .rebind("RMI-Calculator", new Calculator());
 
             System.out.println("Server awaiting requests.");
+            System.out.println(
+                "    |\\__/,|   (`\\\r\n" + //
+                    "  _.|o o  |_   ) )\r\n" + //
+                    "-(((---(((--------.");
 
         } catch (Exception e) {
             e.printStackTrace();
